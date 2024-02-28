@@ -13,3 +13,6 @@ During forward propagation (`forward_prop`), the input vector (a flattened MNIST
 The training process uses mini-batch gradient descent, as defined in the `gradient_descent` function. In each epoch, the dataset is shuffled and divided into mini-batches. For each batch, forward propagation is performed, followed by backward propagation (`backward_prop`), where the gradient of the loss - with respect to each parameter - is calculated using the [chain rule](https://www.youtube.com/watch?v=wl1myxrtQHQ&t=2s). These gradients are used to update the parameters in the `update_params` function with the aim of minimizing the loss. The `get_accuracy` function calculates the prediction accuracy of the current model against the mini-batch labels.
 
 The `one_hot` function encodes labels (e.g 4 - representing the number in the image) as a one-hot representation (e.g `[0,0,0,1,0,0...]`) for computing the loss from the softmax probabilities. Finally, after training for a specified number of epochs, the model's weights and biases are returned, which can be used for making predictions on new data.
+
+
+![Alt text](meme.png)
