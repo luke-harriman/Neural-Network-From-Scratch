@@ -1,8 +1,7 @@
 # Overview
-I am currently learning linear algebra, and I thought the above implementation of a neural network would be a great way to deepen my understanding of machine learning and linear albegra. 
+Learning linear algebra isn't very entertaining within a way to apply the knowledge practically; therefore, I decided to build a neural network from scratch using key concepts from linear and calculas. The implementation only uses Python, numpy and math. 
 
 To understand how this code works, all you need is a rudimentary understanding of the dot-product, array manipulation and the core principles of basic neural networks. Within the implementation details below, I have linked a number of youtube videos that - in my opinion - explain the key concepts of neural networks extremely well (e.g chain rule, dot-product, etc).
-
 
 # Implementation Details
 To start, the script in `main.py` is a simple neural network (NN) implemented using NumPy for digit recognition on the MNIST dataset (Note: I did use tensorflow to access the MNIST dataset as I didn't want to store it locally). The NN is structured with three layers: the first with 64 neurons, the second with 28, and the third (output layer) with 10 neurons, corresponding to the 10 possible digits. The `instantiate_weights` function initializes the weights and biases for each layer with random values.
