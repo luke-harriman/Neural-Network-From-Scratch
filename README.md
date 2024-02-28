@@ -1,5 +1,5 @@
 # Overview
-Learning linear algebra isn't very entertaining within a way to apply the knowledge practically; therefore, I decided to build a neural network from scratch using key concepts from linear and calculas. The implementation only uses Python, numpy and math. 
+Studying linear algebra can be really dry without practical application, so I decided to code-up a neural network from scratch using only numpy.
 
 To understand how this code works, all you need is a rudimentary understanding of the dot-product, array manipulation and the core principles of basic neural networks. Within the implementation details below, I have linked a number of youtube videos that - in my opinion - explain the key concepts of neural networks extremely well (e.g chain rule, dot-product, etc).
 
